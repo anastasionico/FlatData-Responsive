@@ -1,0 +1,56 @@
+@media screen and (min-width: 0px) {
+	#flat-father .flat-input{
+		display:inline-block;
+		width:100%;
+		margin:1em auto;
+		text-align:center;
+		background-color:#bee;
+	}
+	#flat-father .flat-input span{
+		color:#35a;
+		display:inline-block;
+		width:100%;
+		background-color:#5de;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	#flat-father .flat-input p{
+		
+		color:#35a;
+		display:inline-block;
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	#flat-father .flat-input{
+		width:33%;
+	}
+	#flat-father .flat-input *{
+		text-align:center;
+	}
+	#flat-father .flat-input:nth-child(2){
+		float:right;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	#flat-father .flat-input{
+		width:45%;
+	}
+	#flat-father .flat-input:nth-child(2) span{
+		float:right;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	#flat-father .flat-input span{
+		width:60%;
+		float:left;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-top-right-radius: 0px;
+	}		
+}
